@@ -214,6 +214,7 @@
 
     &__photo {
         width: 100%;
+        display: block;
     }
 }
 
@@ -261,6 +262,7 @@
         color: #fff;
         padding: 0 2.25rem;
         align-self: stretch;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -396,7 +398,7 @@
     }
 
     &__friends {
-
+        display: flex;
     }
 
     &__photo {
@@ -407,7 +409,7 @@
         border: 3px solid #fff;
 
         &:not(:last-child) {
-            margin: -1.5rem;
+            margin-right: -2rem;
         }
     }
 }
@@ -475,5 +477,20 @@
         color: var(--color-grey-light-2);
         font-family: sans-serif;
         z-index: 1;
+    }
+}
+
+////////////////////////////////////////////////////
+/// REVIEWS
+
+.cta {
+    padding: 3.5rem 0;
+    text-align: center;
+
+    &__book-now {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
     }
 }
