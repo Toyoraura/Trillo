@@ -1,4 +1,4 @@
-### Trillo
+## Trillo
  
 ## Lien vers le projet: https://trillo-toyoraura.netlify.app/
 
